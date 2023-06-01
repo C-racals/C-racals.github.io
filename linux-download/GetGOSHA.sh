@@ -2,7 +2,7 @@
 
 currentDir=`pwd`
 cd ~/.local/share/
-mkdir -P GOSHA
+mkdir -p GOSHA
 cd GOSHA
 wget -c https://cdn-149.anonfiles.com/y1C3K3u9z1/83e46c9e-1685648928/GOSHA.tar.xz -O - | tar -xj
 rm GOSHA.tar.xz
