@@ -4,7 +4,7 @@ currentDir=`pwd`
 cd ~/.local/share/
 mkdir -p GOSHA
 cd GOSHA
-wget -c https://cdn-149.anonfiles.com/y1C3K3u9z1/83e46c9e-1685648928/GOSHA.tar.xz -O - | tar -xj
+wget -c https://cdn-149.anonfiles.com/y1C3K3u9z1/83e46c9e-1685648928/GOSHA.tar.xz -O - | tar -xf
 rm GOSHA.tar.xz
 chmod +x GOSHA.x86_64
 goshaDIR=`pwd`
